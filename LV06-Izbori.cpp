@@ -8,7 +8,7 @@ int main() {
     int P, Q;
     cin >> P >> Q;
 
-    // Odreðujemo dva kandidata s najviše glasova u prvom krugu
+    // OdreÄ‘ujemo dva kandidata s najviÅ¡e glasova u prvom krugu
     int prvi, drugi;
 
     // Prvi maksimum
@@ -23,11 +23,11 @@ int main() {
     else if (prvi != 2 && ((c > a && c > b && c > d) || (c != glasovi[prvi]))) drugi = 2;
     else drugi = 3;
 
-    // Odreðujemo abecedni red
+    // OdreÄ‘ujemo abecedni red
     int manji = (prvi < drugi) ? prvi : drugi;
     int veci = (prvi > drugi) ? prvi : drugi;
 
-    // Odreðujemo pobjednika drugog kruga
+    // OdreÄ‘ujemo pobjednika drugog kruga
     char pobjednik = (P > Q) ? ('A' + manji) : ('A' + veci);
 
     cout << pobjednik << endl;
