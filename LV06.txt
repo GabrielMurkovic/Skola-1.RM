@@ -1,0 +1,44 @@
+1.
+if (uvjet1) {
+    // naredbe koje se izvode ako je uvjet1 istinit
+} 
+else if (uvjet2) {
+    // naredbe koje se izvode ako je uvjet2 istinit
+} 
+else {
+    // naredbe koje se izvode ako nijedan uvjet nije istinit
+}
+2.
+if (broj > 0) {
+    cout << "Broj je pozitivan";
+} else if (broj < 0) {
+    cout << "Broj je negativan";
+} else {
+    cout << "Broj je nula";
+}
+       ┌───────────────┐
+       │ Početak       │
+       └──────┬────────┘
+              │
+              ▼
+       ┌───────────────┐
+       │ Provjeri broj │
+       │ > 0 ?        │
+       └──────┬────────┘
+         Da   │ Ne
+         ▼    ▼
+┌────────────┐ ┌───────────────┐
+│ Ispis:     │ │ Provjeri broj │
+│ "Pozitiv"  │ │ < 0 ?         │
+└────┬───────┘ └──────┬────────┘
+     │ Da           Da │ Ne
+     ▼               ▼
+  ┌───────┐       ┌──────────┐
+  │ Kraj  │       │ Ispis:   │
+  └───────┘       │ "Nula"   │
+                  └────┬─────┘
+                       ▼
+                     ┌───────┐
+                     │ Kraj  │
+                     └───────┘
+
