@@ -1,0 +1,51 @@
+a) 
+
+Unesi n 
+
+Za i = 1 do n 
+
+    Ako i % 5 == 0 ili i % 7 == 0 
+
+        Ispisuj i 
+
+Kraj 
+
+  
+
+b) 
+
+Unesi n 
+
+Za i = 1 do n 
+
+    Ako i % 2 == 0 i i % 3 == 0 
+
+        Ispisuj i 
+
+Kraj 
+
+  
+
+c) 
+
+Ponovi 
+
+    Unesi a 
+
+    Unesi b 
+
+Dokle god a == b 
+
+    Ispisuj "Jednaki brojevi, ponovi unos." 
+
+    Unesi a 
+
+    Unesi b 
+
+Kraj 
+
+Za i = 1 do a + b - 1 
+
+    Ispisuj i 
+
+Kraj 
