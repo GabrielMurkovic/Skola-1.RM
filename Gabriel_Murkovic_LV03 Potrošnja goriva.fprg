@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Gabriel_Murkovic_LV03 Potro&#353;nja goriva"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 09:15:06 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIwOTowNToyMiAiOzIxOTM="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIwOToxNTowNiAiOzE7MjMwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Kilometri" type="Real" array="False" size=""/>
+            <declare name="Potrosnja" type="Real" array="False" size=""/>
+            <declare name="cijena" type="Real" array="False" size=""/>
+            <declare name="potroseno" type="Real" array="False" size=""/>
+            <declare name="trosak" type="Real" array="False" size=""/>
+            <input variable="kilometri"/>
+            <input variable="Potrosnja"/>
+            <input variable="cijena"/>
+            <assign variable="potroseno" expression="kilometri*Potrosnja/100"/>
+            <assign variable="trosak" expression="potroseno*cijena"/>
+            <output expression="&quot;potroseno gorivo:&quot;&amp; potroseno" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
