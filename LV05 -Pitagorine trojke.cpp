@@ -9,11 +9,11 @@ int main() {
     cout << "Unesite tri broja: ";
     cin >> a >> b >> c;
 
-    // Sortiraj brojeve u rastuæem redoslijedu
+    // Sortiraj brojeve u rastuÃ¦em redoslijedu
     int brojevi[3] = { a, b, c };
     sort(brojevi, brojevi + 3);
 
-    // Nakon sortiranja, brojevi[0] je najmanji, brojevi[1] srednji, brojevi[2] najveæi
+    // Nakon sortiranja, brojevi[0] je najmanji, brojevi[1] srednji, brojevi[2] najveÃ¦i
     a = brojevi[0];
     b = brojevi[1];
     c = brojevi[2];
