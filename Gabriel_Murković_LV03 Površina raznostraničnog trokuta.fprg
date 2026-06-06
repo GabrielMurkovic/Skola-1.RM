@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Gabriel_Murkovi&#263;_LV03 Povr&#353;ina raznostrani&#269;nog trokuta"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 10:29:35 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIwOTozMzo1MiAiOzIxOTc="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIxMDoyOTozNSAiOzE7MjMwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="s" type="Real" array="False" size=""/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="s" expression="(a+b+c)/2"/>
+            <assign variable="p" expression="Sqrt(s*(s-a)*(s-b)*(s-c))"/>
+            <output expression="&quot;Poluopseg je:&quot;&amp;s" newline="True"/>
+            <output expression="&quot;Povrsina je:&quot;&amp;p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
