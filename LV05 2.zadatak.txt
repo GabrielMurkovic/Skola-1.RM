@@ -1,0 +1,5 @@
+Unesi broj1
+Unesi broj2
+umnožak = broj1 * broj2
+Ispiši "Umnožak brojeva " + broj1 + " i " + broj2 + " je " + umnožak
+
