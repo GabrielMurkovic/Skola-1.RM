@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Gabriel_Murkovic_LV03 Povr&#353;ina pravokutnog trokuta"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 09:33:09 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIwOToxODo0MiAiOzIxOTk="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIwOTozMzowOSAiOzE7MjMwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="Hipotenuza" type="Real" array="False" size=""/>
+            <declare name="Povrsina" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="Hipotenuza" expression="sqrt(a^2 + b^2)"/>
+            <assign variable="Povrsina" expression="(a * b) / 2"/>
+            <output expression="&quot;Ispi&#353;i Hipotenuzu:&quot;&amp; Hipotenuza" newline="True"/>
+            <output expression="&quot;Ispi&#353;i Povrsinu:&quot;&amp;Povrsina" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
