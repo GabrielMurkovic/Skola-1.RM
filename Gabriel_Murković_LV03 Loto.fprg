@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Gabriel_Murkovi&#263;_LV03 Loto"/>
+        <attribute name="authors" value="ucenik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-13 10:54:03 "/>
+        <attribute name="created" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIxMDozODowOCAiOzIxOTU="/>
+        <attribute name="edited" value="dWNlbmlrO1gzMVIwMTsyMDI1LTEwLTEzOyIxMDo1NDowMyAiOzE7MjI5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b1" type="Real" array="False" size=""/>
+            <declare name="b2" type="Real" array="False" size=""/>
+            <declare name="b3" type="Real" array="False" size=""/>
+            <declare name="b4" type="Real" array="False" size=""/>
+            <declare name="b5" type="Real" array="False" size=""/>
+            <declare name="b6" type="Real" array="False" size=""/>
+            <declare name="b7" type="Real" array="False" size=""/>
+            <declare name="zbroj" type="Real" array="False" size=""/>
+            <declare name="ostatak" type="Real" array="False" size=""/>
+            <declare name="joker" type="Real" array="False" size=""/>
+            <input variable="b1"/>
+            <input variable="b2"/>
+            <input variable="b3"/>
+            <input variable="b4"/>
+            <input variable="b5"/>
+            <input variable="b6"/>
+            <input variable="b7"/>
+            <assign variable="zbroj" expression="(b1 % 10) + (b2 % 10) + (b3 % 10) + (b4 % 10) + (b5 % 10) + (b6 % 10)"/>
+            <assign variable="joker" expression="(b1 % 10)* 100000 + (b2 % 10) * 10000 + (b3 % 10) * 1000 + (b4 % 10) * 100 + (b5 % 10) * 10 + (b6 % 10)"/>
+            <assign variable="ostatak" expression="joker % 101"/>
+            <output expression="&quot;Zbroj znamenki je:&quot;&amp;zbroj" newline="True"/>
+            <output expression="&quot;Ostatak pri djeljenju:&quot;&amp;ostatak" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
