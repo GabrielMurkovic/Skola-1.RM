@@ -1,0 +1,65 @@
+a) 
+
+Unesi broj 
+
+jedinica = broj % 10 
+
+desetica = broj / 10 
+
+  
+
+Ako jedinica > desetica 
+
+    Ispisuj "DA" 
+
+Inače, ako jedinica < desetica 
+
+    Ispisuj "NE" 
+
+Inače 
+
+    Ispisuj "JEDNAKE ZNAMENKE" 
+
+  
+
+b) 
+
+Unesi a 
+
+Unesi b 
+
+Unesi c 
+
+  
+
+Ako a < b i a < c 
+
+    Ispisuj a 
+
+Inače, ako b < a i b < c 
+
+    Ispisuj b 
+
+Inače 
+
+    Ispisuj c 
+
+  
+
+c) 
+
+Unesi a 
+
+Unesi b 
+
+Unesi c 
+
+  
+
+Ako a == b ili b == c ili a == c 
+
+    Ispisuj "JEDNAKOKRAČAN" 
+
+Inače 
+
+    Ispisuj "NIJE JEDNAKOKRAČAN" 
