@@ -3,14 +3,14 @@ using namespace std;
 
 int main() {
     int temperatura1, temperatura2, temperatura3;
-    int ispod_nule = 0, nula_ili_više = 0;
+    int ispod_nule = 0, nula_ili_viÅ¡e = 0;
 
     // Unos temperatura za tri dana
     cout << "Unesite temperaturu za prvi dan: ";
     cin >> temperatura1;
     cout << "Unesite temperaturu za drugi dan: ";
     cin >> temperatura2;
-    cout << "Unesite temperaturu za treæi dan: ";
+    cout << "Unesite temperaturu za treÃ¦i dan: ";
     cin >> temperatura3;
 
     // Provjera za prvi dan
@@ -18,7 +18,7 @@ int main() {
         ispod_nule++;
     }
     else {
-        nula_ili_više++;
+        nula_ili_viÅ¡e++;
     }
 
     // Provjera za drugi dan
@@ -26,20 +26,20 @@ int main() {
         ispod_nule++;
     }
     else {
-        nula_ili_više++;
+        nula_ili_viÅ¡e++;
     }
 
-    // Provjera za treæi dan
+    // Provjera za treÃ¦i dan
     if (temperatura3 < 0) {
         ispod_nule++;
     }
     else {
-        nula_ili_više++;
+        nula_ili_viÅ¡e++;
     }
 
     // Ispis rezultata
     cout << "Broj dana sa temperaturom ispod nule: " << ispod_nule << endl;
-    cout << "Broj dana sa temperaturom 0 ili više: " << nula_ili_više << endl;
+    cout << "Broj dana sa temperaturom 0 ili viÅ¡e: " << nula_ili_viÅ¡e << endl;
 
     return 0;
 }
