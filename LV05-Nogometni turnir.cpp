@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int goloviPrvaDom, goloviDrugaGost, goloviPrvaGost, goloviDrugaDom;
 
-    cout << "Unesi golove (prva domaæin, druga gost, prva gost, druga domaæin): ";
+    cout << "Unesi golove (prva domaÃ¦in, druga gost, prva gost, druga domaÃ¦in): ";
     cin >> goloviPrvaDom >> goloviDrugaGost >> goloviPrvaGost >> goloviDrugaDom;
 
     int ukupnoPrva = goloviPrvaDom + goloviPrvaGost;
@@ -31,13 +31,13 @@ int main() {
             pobjednik = "Druga ekipa";
             razlika = goloviDrugaGost - goloviPrvaGost;
         }
-        else { // izjednaèeno i po golovima u gostima
+        else { // izjednaÃ¨eno i po golovima u gostima
             pobjednik = "Jedanaesterci";
             razlika = 0;
         }
     }
 
-    cout << pobjednik << " – razlika u golovima je " << razlika << endl;
+    cout << pobjednik << " â€“ razlika u golovima je " << razlika << endl;
 
     return 0;
 }
